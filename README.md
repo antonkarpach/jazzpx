@@ -2,7 +2,7 @@
 
 Simple project to practice React.js
 - Adaptive layout
-- Algorithm of generating points in div block
+- Algorithm of generating points
 - Save condition with hooks
 - Arrow control
 
