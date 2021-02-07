@@ -1,0 +1,9 @@
+@import "../../constants/colors.css";
+
+.snake-dot {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: var(--accent-color);
+    z-index: 2;
+}

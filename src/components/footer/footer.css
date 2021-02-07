@@ -1,0 +1,23 @@
+.block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 145px;
+    height: 40px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.box{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+
+.box > .red {
+    color: red;
+}
+

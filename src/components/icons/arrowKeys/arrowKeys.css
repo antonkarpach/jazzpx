@@ -1,0 +1,9 @@
+.arrow-keys-tr  > * {
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+.arrow-keys-tr {
+    display: flex;
+    justify-content: center;
+}

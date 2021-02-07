@@ -1,0 +1,51 @@
+.background {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.background-cover {
+  position: absolute;
+  height: 325px;
+  z-index: 0;
+  width: 100%;
+  background-image: url(../../resources/bg_pattern.svg);
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+  from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.background-logo {
+  position: absolute;
+  z-index: 1;
+  top: 130px;
+}
+
+.info-h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.info-h3 {
+font-size: 16px;
+}
+
+.info {
+display: flex;
+align-items: center;
+flex-direction: column;
+height: 350px;
+}
+
+@media (max-width: 1100px) {
+  .info-h1 {
+    font-size: 18px;
+  }
+
+  .info {
+    height: 260px;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../../constants/colors.css";
+
+.score-sparks {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.score-sparks-count {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60pt;
+  width: 260px;
+  height: 228px;
+  color: var(--accent-color);
+}
